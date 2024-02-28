@@ -1,0 +1,231 @@
+Tamanho inicial do Dataset  8378
+
+Colunas: nº de NA:
+Unnamed: 0      0
+id              1
+partner         0
+age            95
+age_o         104
+goal           79
+date           97
+go_out         79
+int_corr      158
+length        915
+met           375
+like          240
+prob          309
+match           0
+dtype: int64
+
+Colunas: percentagem de NA
+Unnamed: 0     0.000000
+id             0.011936
+partner        0.000000
+age            1.133922
+age_o          1.241346
+goal           0.942946
+date           1.157794
+go_out         0.942946
+int_corr       1.885892
+length        10.921461
+met            4.476009
+like           2.864646
+prob           3.688231
+match          0.000000
+dtype: float64
+
+Apagar as colunas:length
+
+Eliminar linhas com 2 ou mais NA
+
+Foram eliminadas  364  linhas do dataset
+
+Tamanho atual: 8014
+
+Eliminamos  4.344712341847696 % do dataset
+
+
+
+Analisar a tabela
+Média id = 8.976787719955073
+Mediana id = 8.0
+Mode id : 0    1.0
+dtype: float64
+
+
+Média partner = 8.970551534814076
+Mediana partner = 8.0
+Mode partner : 0    1
+dtype: int64
+
+
+Média age = 26.34276414621933
+Mediana age = 26.0
+Mode age : 0    27.0
+dtype: float64
+
+
+Média age_o = 26.349749373433585
+Mediana age_o = 26.0
+Mode age_o : 0    27.0
+dtype: float64
+
+
+Média goal = 2.118667332168705
+Mediana goal = 2.0
+Mode goal : 0    1.0
+dtype: float64
+
+
+Média date = 5.006253126563282
+Mediana date = 5.0
+Mode date : 0    6.0
+dtype: float64
+
+
+Média go_out = 2.1573496381332666
+Mediana go_out = 2.0
+Mode go_out : 0    2.0
+dtype: float64
+
+
+Média int_corr = 0.196158269783723
+Mediana int_corr = 0.21
+Mode int_corr : 0    0.31
+dtype: float64
+
+
+Média met = 0.4952878247580234
+Mediana met = 0.0
+Mode met : 0    0.0
+dtype: float64
+
+
+Média like = 6.131071116110486
+Mediana like = 6.0
+Mode like : 0    7.0
+dtype: float64
+
+
+Média prob = 5.204785894206549
+Mediana prob = 5.0
+Mode prob : 0    5.0
+dtype: float64
+
+
+Substituir os Nas pela média (pressiona 1) ou pela mediana (pressiona 2) ou pela moda( pressiona 3) 
+
+1
+
+ Analisar a tabela
+Média id = 8.976787719955073
+Mediana id = 8.0
+Mode id : 0    1.0
+dtype: float64
+
+
+Média partner = 8.970551534814076
+Mediana partner = 8.0
+Mode partner : 0    1
+dtype: int64
+
+
+Média age = 26.342764146219327
+Mediana age = 26.0
+Mode age : 0    27.0
+dtype: float64
+
+
+Média age_o = 26.349749373433585
+Mediana age_o = 26.0
+Mode age_o : 0    27.0
+dtype: float64
+
+
+Média goal = 2.118667332168705
+Mediana goal = 2.0
+Mode goal : 0    1.0
+dtype: float64
+
+
+Média date = 5.006253126563282
+Mediana date = 5.0
+Mode date : 0    6.0
+dtype: float64
+
+
+Média go_out = 2.1573496381332666
+Mediana go_out = 2.0
+Mode go_out : 0    2.0
+dtype: float64
+
+
+Média int_corr = 0.19615826978372297
+Mediana int_corr = 0.21
+Mode int_corr : 0    0.31
+dtype: float64
+
+
+Média met = 0.4952878247580234
+Mediana met = 0.4952878247580234
+Mode met : 0    0.0
+dtype: float64
+
+
+Média like = 6.131071116110486
+Mediana like = 6.0
+Mode like : 0    7.0
+dtype: float64
+
+
+Média prob = 5.20478589420655
+Mediana prob = 5.0
+Mode prob : 0    5.0
+dtype: float64
+
+
+Quantos atributos? : Todos (pressiona 1), 3 (pressiona 2), 4 (pressiona 3), 6 (pressiona 4)  
+
+2
+Pressiona 1 para holdout ou 2 para cross validation 
+
+2
+
+Informações do teste
+{0: 1347, 1: 256}
+
+Informações do treino
+{0: 5321, 1: 1090}
+
+Informações do teste
+{0: 1337, 1: 266}
+
+Informações do treino
+{0: 5331, 1: 1080}
+
+Informações do teste
+{0: 1333, 1: 270}
+
+Informações do treino
+{0: 5335, 1: 1076}
+
+Informações do teste
+{0: 1347, 1: 256}
+
+Informações do treino
+{0: 5321, 1: 1090}
+
+Informações do teste
+{0: 1304, 1: 298}
+
+Informações do treino
+{0: 5364, 1: 1048}
+
+
+Accuracy Score: 0.834
+Precision Score: 0.537
+Recall Score: 0.082
+Error rate: 0.166 
+F1 Score: 0.142
+
+
